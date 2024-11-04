@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Adaptable</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <nav class="main-navbar navbar navbar-expand-lg navbar-dark bg-secondary mb-3 d-none d-lg-block">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LOREM IPSUM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDesktop" aria-controls="navbarDesktop" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarDesktop">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Dolor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Amet</a>
+                    </li>
+                </ul>
+                <form class="d-flex ml-auto" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="mobile-navbar navbar navbar-expand-lg navbar-dark bg-secondary mb-3 d-block d-lg-none">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LOREM IPSUM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMobile" aria-controls="navbarMobile" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMobile">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                </form>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Dolor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Amet</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownOptions" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Opciones
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownOptions">
+                            <li><a class="dropdown-item" href="#">Opción 1</a></li>
+                            <li><a class="dropdown-item" href="#">Opción 2</a></li>
+                            <li><a class="dropdown-item" href="#">Opción 3</a></li>
+                            <li><a class="dropdown-item" href="#">Opción 4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header-container container text-center d-none d-lg-block">
+        <h2>Lorem Ipsum...</h2>
+    </div>
+
+    <div id="carouselSection" class="carousel slide mb-5 d-none d-lg-block" data-ride="carousel" data-interval="2000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-center align-items-center">
+                    <h5>...dolor sit amet</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center align-items-center">
+                    <h5>...consectetur adipiscing elit</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center align-items-center">
+                    <h5>...vestibulum mollis, tortor ac congue commodo</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-container container">
+        <div class="row">
+            <div class="col-md-3 d-none d-lg-block">
+                <div class="opcion">Opción 1</div>
+                <div class="opcion">Opción 2</div>
+                <div class="opcion">Opción 3</div>
+                <div class="opcion">Opción 4</div>
+            </div>
+            <div class="col-md-12 col-lg-9">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis, tortor ac congue commodo, nisi neque bibendum elit, quis vulputate dolor augue ut mauris.</p></div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <p>Phasellus eleifend semper tempor. Quisque mi lorem, laoreet eu urna sit amet, tempor volutpat est. Vestibulum lobortis nulla vel odio laoreet, porttitor. iaculis rhoncus neque.</p></div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <p>Fusce vitae enim et tellus lacinia condimentum eu at massa. Nullam laoreet, elit quis hendrerit maximus, ante sem congue lorem, vestibulum felis mauris et arcu.</p></div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <p>Mauris mattis porttitor erat, in pharetra risus fringilla lobortis. Vestibulum et ante commodo, imperdiet neque ac, tempus felis. Nullam sed pharetra purus. Donec sit amet ultricies nisi.</p></div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <p>In mi velit, fringilla sed velit vel, ornare varius dui. Nunc viverra diam sit amet mollis posuere. Nullam semper odio in consectetur ornare.</p></div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <p>Proin suscipit orci mi, ut hendrerit mi molestie nec. Donec efficitur risus erat, eu auctor massa molestie vitae.</p></div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec lectus ligula, ultricies ut est nec, varius.</p></div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <p>In aliquet fringilla libero, quis dapibus massa tincidunt a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur.</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
